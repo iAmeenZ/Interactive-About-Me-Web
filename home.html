@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ameen Inc.</title>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+	<link rel = "icon" href = "images/tabImage.png" type = "image/x-icon"> 
+	<link rel="stylesheet" type="text/css" href="css/style-home.css">
+	<link rel="stylesheet" type="text/css" href="css/transition.css">
+	<link rel="stylesheet" type="text/css" href="css/modal.css">
+	<link rel="stylesheet" type="text/css" href="css/my-template.css">
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+	<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+</head>
+<body class="backgroundImg">
+	<br>
+
+	<button onclick="topFunction()" id="backTop">Back to Top</button>
+
+	<div class="topnav">
+	  <div class="topnav-centered">
+	    <img src="images/logo.png" class="logo-img" onclick="location.href='home.html'">
+	  </div>
+
+	  <div class="topnav-left">
+		  <a href="home.html" id="color-darkteal">Home</a>
+		  <a href="experience.html">Experience</a>
+	  </div>
+	  
+	  <div class="topnav-right">
+	    <a href="contacts.html">Contact</a>
+	    <a href="about.html">About</a>
+	  </div>
+	</div>
+
+	<div class="section1 fade" id="section1">
+		<h1 class="section1-text1">Get To Know<br>The Programmer</h1>
+    	<h3 class="section1-text2">&nbsp;&nbsp;Platform about me and my experience</h3>
+	</div>
+
+	<div class="hide section-card" id="section-card">
+	    <div class="card">
+		  <img src="images/profile.jpg" alt="Avatar" class="card-image">
+		    <div class="section-card-button">
+			    <button onclick="document.getElementById('id01').style.display='block'" class="section-card-button"><strong>View Profile</strong></button>
+			</div>
+		</div>
+	</div>
+	
+	<div id="id01" class="modal">
+	    <div class="modal-content modal-card-4 modal-animate-top">
+	      <header class="modal-container modal-teal"> 
+	        <span onclick="document.getElementById('id01').style.display='none'" 
+	        class="modal-display-topright"><strong>&times;</strong></span>
+	        <h1 class="modal-textheader">My Profile&nbsp;&nbsp;<i class='fas fa-portrait'></i></h1>
+	      </header>
+	      <div class="modal-main">
+	        <div class="modal-col1">
+	        	<img src="images/profile.jpg"  alt="Avatar" class="modal-img">
+	        </div>
+	        <div class="modal-col2">
+	        	<div class="modal-content-margin">
+		        	<h2 class="modal-text1">Full Name</h2>
+		        	<h3 class="modal-text2">Nur Ameerul Ameen Bin Nor Hassan</h3>
+		        </div>
+	        	<div class="modal-content-margin">
+		        	<h2 class="modal-text1">Age</h2>
+		        	<h3 class="modal-text2">20</h3>
+		        </div>
+	        	<div class="modal-content-margin">
+		        	<h2 class="modal-text1">Occupation</h2>
+		        	<h3 class="modal-text2">Student</h3>
+		        </div>
+	        	<div class="modal-content-margin">
+		        	<h2 class="modal-text1">Residence</h2>
+		        	<h3 class="modal-text2">Putrajaya, MY</h3>
+	        	</div>
+	        </div>
+	      </div>
+	    </div>
+	 </div>
+
+    <div class="section2-float">
+    	<form action="home.html">
+    		<div class="section2-float-text">
+    			<label for="name"><strong>WHO'S VISITING MY PAGE</strong></label>
+    		</div>
+    		<div>
+	    		<div class="section2-float-col1">
+				    <input type="text" id="name" name="name" placeholder="Your name.." required>
+			    </div>
+			    <div class="section2-float-col2">
+			    	<input type="submit" value="Submit">
+			    </div>
+		    </div>
+		</form>
+    </div>
+
+    <div class="section2">
+    	<div>
+    		<h1 class="section-headerText">My Hobby</h1>
+    	</div>
+    	<div>
+			<div class="col1" data-aos="fade-up" data-aos-delay="100">
+				<div class="icon opacity">
+					<i class="fa fa-gamepad"></i>
+				</div>
+				<h1 class="section2-text">Video Games</h1>
+			</div>
+		    <div class="col2" data-aos="fade-up" data-aos-delay="150">
+		    	<div class="icon opacity">
+					<i class="fa fa-futbol"></i>
+				</div>
+				<h1 class="section2-text">Watch Football</h1>
+			</div>
+		    <div class="col3" data-aos="fade-up" data-aos-delay="200">
+		    	<div class="icon opacity">
+					<i class='fa fa-swimmer'></i>
+				</div>
+				<h1 class="section2-text">Sports</h1>
+		    </div>
+		    <div class="col4" data-aos="fade-up" data-aos-delay="250">
+		    	<div class="icon opacity">
+					<i class="fa fas fa-code"></i>
+				</div>
+				<h1 class="section2-text">Programming</h1>
+		    </div>
+		</div>
+    </div>
+
+    <div class="section-white">
+    	<div class="section-white-1">
+    		<div class="icon-globe">
+    			<i class='fas fa-globe-americas' data-aos="slide-up" data-aos-duration="1000"></i>
+    		</div>
+    		<div class="text-align-center">
+    			<h1 class="section-headerText">My World Travel</h1>
+    		</div>
+	    	<table class="table" data-aos="fade-up">
+			  <tr>
+			  	<th width="30px;"></th>
+			    <th>&nbsp;&nbsp;Country</th>
+			    <th width="50%">City/State</th>
+			    <th width="15%">Year</th>
+			  </tr>
+			  <tr>
+			  	<td class="table-logo"><img src="images/malaysia.png" width="30px;" data-aos="fade-right"></td>
+			    <td><strong>Malaysia</strong></td>
+			    <td><strong>All States</strong></td>
+			    <td><strong>Lifetime</strong></td>
+			  </tr>
+			  <tr>
+			  	<td class="table-logo"><img src="images/indonesia.png" width="30px;" data-aos="fade-right"></td>
+			    <td>Indonesia</td>
+			    <td>Padang, Lombok</td>
+			    <td>2014</td>
+			  </tr>
+			  <tr>
+			  	<td class="table-logo"><img src="images/thailand.png" width="30px;" data-aos="fade-right"></td>
+			    <td>Thailand</td>
+			    <td>Pattani, Hat Yai</td>
+			    <td>2015</td>
+			  </tr>
+			  <tr>
+			  	<td class="table-logo"><img src="images/brunei.png" width="30px;" data-aos="fade-right"></td>
+			    <td>Brunei</td>
+			    <td>Bandar Seri Begawan</td>
+			    <td>2015</td>
+			  </tr>
+			  <tr>
+			  	<td class="table-logo"><img src="images/turkey.png" width="30px;" data-aos="fade-right"></td>
+			    <td>Turkey</td>
+			    <td>Istanbul, Cappadocia, Bursa</td>
+			    <td>2016</td>
+			  </tr>
+			  <tr>
+			  	<td class="table-logo"><img src="images/united-kingdom.png" width="30px;" data-aos="fade-right"></td>
+			    <td>United Kingdom</td>
+			    <td>London, Manchester</td>
+			    <td>2018</td>
+			  </tr>
+			  <tr>
+			  	<td class="table-logo"><img src="images/france.png" width="30px;" data-aos="fade-right"></td>
+			    <td>France</td>
+			    <td>Paris</td>
+			    <td>2018</td>
+			  </tr>
+			  <tr>
+			  	<td class="table-logo"><img src="images/switzerland.png" width="30px;" data-aos="fade-right"></td>
+			    <td>Switzerland</td>
+			    <td>Zurich, Interlaken</td>
+			    <td>2018</td>
+			  </tr>
+			  <tr>
+			  	<td class="table-logo"><img src="images/united-arab-emirates.png" width="30px;" data-aos="fade-right"></td>
+			    <td>United Arab Emirates</td>
+			    <td>Dubai</td>
+			    <td>2018</td>
+			  </tr>
+			  <tr>
+			  	<td class="table-logo"><img src="images/saudi-arabia.png" width="30px;" data-aos="fade-right"></td>
+			    <td>Saudi Arabia</td>
+			    <td>Mecca, Medina</td>
+			    <td>2019</td>
+			  </tr>
+			  <tr>
+			  	<td class="table-logo"><img src="images/singapore.png" width="30px;" data-aos="fade-right" data-aos-offset="50"></td>
+			    <td>Singapore</td>
+			    <td>East Region</td>
+			    <td>2019</td>
+			  </tr>
+			</table>
+		</div>
+
+		<div class="section-white-2">
+			<div class="text-align-center">
+    			<h1 class="section-headerText">Favorite Places</h1>
+    		</div>
+    		<div class="section-white-2-content">
+    			<div class="col1-sw2" data-aos="fade-right" data-aos-offset="-100" data-aos-duration="1500" data-aos-delay="700">
+    				<img class="col1-sw2-img" src="images/etihad.jpg" alt="etihad" width="350px">
+    				<div class="overlaya">2018</div>
+    				<div class="content-img">Etihad Stadium, Manchester</div>
+    			</div>
+    			<div class="col2-sw2" data-aos="fade-up" data-aos-offset="-100" data-aos-duration="1500">
+    				<img class="col2-sw2-img" src="images/paris.jpg" alt="etihad" width="350px">
+    				<div class="overlaya">2018</div>
+    				<div class="content-img">Eiffel Tower, Paris</div>
+    			</div>
+
+    			<div class="col3-sw2" data-aos="fade-left" data-aos-offset="-100" data-aos-duration="1500" data-aos-delay="700">
+    				<img class="col3-sw2-img" src="images/kaaba.jpg" alt="etihad" width="350px">
+    				<div class="overlaya">2019</div>
+    				<div class="content-img">Masjid al-Haram, Mecca</div>
+    			</div>
+    		</div>
+    		<br><br><br><br>
+    		<div class="text-align-center see-more" data-aos="fade-up"  data-aos-offset="-350" data-aos-duration="1000">
+    			<h1 onclick="location.href='experience.html'" class="section-footerText">See More &#x00bb;</h1>
+    		</div>
+    	</div>
+
+    	<div class="section-white-3">
+
+    		<div class="text-align-center">
+    			<h1 class="section-headerText">Memorable Events</h1>
+    		</div>
+
+    		<div class="section-white-3-content1">
+    			<div class="icon-swiss">
+		    		<img src="images/switzerland.png" data-aos="slide-left" data-aos-duration="1000" data-aos-offset="-550" width="620px">
+		    	</div>
+    			<div class="content-video">
+					<video width="350" height="438" controls class="outline-none">
+					  <source src="videos/video.mp4" type="video/mp4">
+					  Your browser does not support the video tag.
+					</video>
+				</div>
+				<div class="content-video-text-area content-video-text">
+					<h1 class="content-video-text-header">Top of Europe</h1>
+					<p class="content-video-text-content">&nbsp;Interlaken, Switzerland</p>
+					<br><br>
+					<p class="content-video-text-content"><strong>&nbsp;Icy air streams across your face,<br>&nbsp;snow crunches under your feet,<br>&nbsp;and the view nearly takes<br>&nbsp;your breath away.<br>&nbsp;Jungfraujoch Mountain.</strong></p>
+				</div>
+			</div>
+
+			<div class="section-white-3-content2">
+    			<div class="icon-uk">
+		    		<img src="images/united-kingdom.png" data-aos="slide-right" data-aos-duration="1000" data-aos-offset="-550" width="620px">
+		    	</div>
+    			<div class="content-video2">
+					<video width="350" height="438" controls class="outline-none">
+					  <source src="videos/video2.mp4" type="video/mp4">
+					  Your browser does not support the video tag.
+					</video>
+				</div>
+				<div class="content-video-text-area2 content-video-text2">
+					<h1 class="content-video-text-header">London Bridge is<br>Falling Down</h1>
+					<p class="content-video-text-content">&nbsp;London, UK</p>
+					<br>
+					<p class="content-video-text-content"><strong>&nbsp;The breathtaking views and enjoy<br>&nbsp;London on the open upper deck<br>&nbsp;of a boat with a River Thames<br>&nbsp;sightseeing cruise.<br>&nbsp;London Cruise. Tower Bridge.</strong></p>
+				</div>
+			</div>
+
+			<div class="section-white-4-song">
+				<h2>Favorite Song</h2>
+				<br>
+				<audio controls>
+				  <source src="audio/bon_jovi-always.mp3" type="audio/mpeg">
+				Your browser does not support the audio element.
+				</audio>
+				<br>
+				<p>Bon Jovi - Always</p>
+			</div>
+
+		</div>
+
+		
+
+    </div>
+
+	<footer class="section-footer">
+		<div class="section-footer-content" data-aos="fade-up">
+			<div class="footer-col1">
+				<div class="footer-col1-content">
+					<p class="footer-headerText">Ameen Inc.</p>
+					<br><br>
+					<p class="footer-contentText" data-aos="fade-right">An incorporated company<br>that doesn't exist in the<br>real world, simply for illustration and<br>presentation.</p>
+				</div>
+			</div>
+			<div class="footer-col2">
+				<div class="footer-col2-content">
+					<p class="footer-headerText">Community</p>
+					<br><br>
+					<ul class="footer-contentText-bullet" data-aos="fade-right">
+						<li>Blog</li>
+						<li>Reviews</li>
+						<li>FAQs</li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer-col3">
+				<div class="footer-col3-content">
+					<p class="footer-headerText">Template</p>
+					<br><br>
+					<ul class="footer-contentText-bullet" data-aos="fade-right">
+						<li>Self made</li>
+						<li>No framework</li>
+						<li>Fully organized</li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer-col4">
+				<div class="footer-col4-content">
+					<p class="footer-headerText">Reference</p>
+					<br><br>
+					<ul class="footer-contentText-bullet" data-aos="fade-right">
+						<li>w3schools.com</li>
+						<li>stackOverFlow</li>
+						<li>fontawesome.com</li>
+						<li>unpkg.com</li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer-credits">
+				<p>Copyright © 2020 All rights reserved | This template is made by <strong>Nur Ameerul Ameen</strong></p>
+			</div>
+		</div>
+	</footer>
+
+
+
+
+	 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	 <script>
+	    AOS.init({
+	    	once: true
+	    });
+	 </script>
+	<script src="js/animation.js"></script>
+	<script src="js/back-top.js"></script>
+
+</body>
+</html>

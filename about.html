@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ameen Inc.</title>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+	<link rel = "icon" href = "images/tabImage.png" type = "image/x-icon"> 
+	<link rel="stylesheet" type="text/css" href="css/style-about.css">
+	<link rel="stylesheet" type="text/css" href="css/transition.css">
+	<link rel="stylesheet" type="text/css" href="css/my-template.css">
+	<link rel="stylesheet" type="text/css" href="css/modal2.css">
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body class="backgroundImg">
+	<br>
+
+	<button onclick="topFunction()" id="backTop">Back to Top</button>
+
+	<div class="topnav">
+	  <div class="topnav-centered">
+	    <img src="images/logo.png" class="logo-img" onclick="location.href='home.html'">
+	  </div>
+
+	  <div class="topnav-left">
+		  <a href="home.html">Home</a>
+		  <a href="experience.html">Experience</a>
+	  </div>
+	  
+	  <div class="topnav-right">
+	    <a href="contacts.html">Contact</a>
+	    <a href="about.html" id="color-darkteal">About</a>
+	  </div>
+	</div>
+
+	<div class="section1-text1">
+		<p><strong>About Us</strong></p>
+	</div>
+
+    <div class="section-white" data-aos="slide-up" data-aos-duration="500">
+
+    	<div class="section-white-1" data-aos="fade-up" data-aos-delay="400">
+    		<br>
+    		<h3>Vision</h3>
+    		<p>To be the best programmer among the best in the world.</p>
+    		<br><br>
+    		<h3>Mission</h3>
+    		<p>Always responsible, integrity and innovative to face challenges.</p>
+    	</div>
+
+    	<div class="section-white-2" data-aos="fade-up" data-aos-delay="500">
+    		<button class="section-white-2-button" onclick="document.getElementById('id01').style.display='block'" >&#x271A; Become A Supporter</button>
+    	</div>
+
+    	<div id="id01" class="modal">
+		    <div class="modal-content modal-card-4 modal-animate-top">
+		      <header class="modal-container modal-teal"> 
+		        <span onclick="document.getElementById('id01').style.display='none'" 
+		        class="modal-display-topright"><strong>&times;</strong></span>
+		        <h1 class="modal-textheader">&#x271A; Become A Supporter</h1>
+		      </header>
+		      <div class="modal-main">
+		        <form>
+    				<div class="form-column">
+		    			<div class="form-col1">
+						    <label for="fullname">Full Name <span class="color-red">*</span></label><br>
+						    <input type="text" name="name" required>
+					    </div>
+					    <div class="form-col2">
+			    			<label for="gender">Gender <span class="color-red">*</span></label><br>
+						    <select id="gender" name="gender">
+						      <option value="Male">Male</option>
+						      <option value="Female">Female</option>
+						    </select>
+					    </div>
+				    </div>
+				    <br><br><br><br><br>
+	    			<div class="form-col2-1">
+					    <label for="fullname">Email <span class="color-red">*</span></label><br>
+					    <input type="email" name="email" required>
+				    </div>
+	    			
+	    			<div class="form-col2-2">
+	    				
+	    				<label>Subscription <span class="color-red">*</span></label><br><br>
+	    				<label class="container">1-Month
+						  <input type="radio" checked="checked" name="radio">
+						  <span class="checkmark"></span>
+						</label>
+						<label class="container">3-Months
+						  <input type="radio" name="radio">
+						  <span class="checkmark"></span>
+						</label>
+						<label class="container">12-Months
+						  <input type="radio" name="radio">
+						  <span class="checkmark"></span>
+						</label>
+	    			</div>
+	    				
+
+	    			<div class="form-cola">
+					    <br><br>
+
+						<label class="container-cb">I agree to the <a href="#There-is-no-terms-and-conditions-hehe">Terms and Conditions</a> <span class="color-red">*</span>
+						  <input type="checkbox" required>
+						  <span class="checkmark-cb"></span>
+						</label>
+						<label class="container-cb">Receive news and updates through your email
+						  <input type="checkbox">
+						  <span class="checkmark-cb"></span>
+						</label>
+
+						<br>
+
+						<input type="submit" value="Submit" class="text-aling-center">
+				    </div>
+
+						
+
+    			</form>
+		      </div>
+		    </div>
+		 </div>
+
+    	<div class="section-white-3">
+    		<div class="col1">
+    			<img src="images/tabImage.png" width="300px" data-aos="fade-right">
+    		</div>
+    		<div class="col2" data-aos="fade-right" data-aos-delay="100">
+    			<h1>Ameen Inc.</h1>
+    			<br>
+    			<p>An incorporated company that doesn't exist in the real world,<br>simply for illustration and presentation.</p>
+    			<br><br>
+    			<div class="soc-col">
+					<div class="soc-hover">
+    					<img src="images/facebook.png" width="45px" onClick="window.open('http://www.facebook.com', '_blank')" data-aos="fade-up" data-aos-delay="200">
+    				</div>
+    				<div class="soc-hover">
+    					<img src="images/instagram.png" width="45px" onClick="window.open('http://www.instagram.com/ameen.fm', '_blank')" data-aos="fade-up" data-aos-delay="250">
+    				</div>
+    				<div class="soc-hover">
+    					<img src="images/twitter.png" width="45px" onClick="window.open('http://www.twitter.com', '_blank')" data-aos="fade-up" data-aos-delay="300">
+    				</div>
+    				<div class="soc-hover">
+    					<img src="images/youtube.png" width="45px" onClick="window.open('https://www.youtube.com/channel/UCRZIVOxr4Zn39zUhVjRLp_g', '_blank')" data-aos="fade-up" data-aos-delay="350">
+    				</div>
+				</div>
+    		</div>
+    		<p class="creds-p">This website was designed by Nur Ameerul Ameen, build from scratch. With the help and reference of several websites such as w3scshool.com, stackoverflow.com and tutorials at
+			youtube.com. Symbols are used by existing unicodes and some other symbols 	from fontawesome.com. The animation was created by myself using JavaScript 	and CSS and some other animations from unpkg.com.
+			</p>
+    	</div>
+
+    </div>
+
+	<footer class="section-footer">
+		<div class="section-footer-content" data-aos="fade-up">
+			<div class="footer-col1">
+				<div class="footer-col1-content">
+					<p class="footer-headerText">Ameen Inc.</p>
+					<br><br>
+					<p class="footer-contentText" data-aos="fade-right">An incorporated company<br>that doesn't exist in the<br>real world, simply for illustration and<br>presentation.</p>
+				</div>
+			</div>
+			<div class="footer-col2">
+				<div class="footer-col2-content">
+					<p class="footer-headerText">Community</p>
+					<br><br>
+					<ul class="footer-contentText-bullet" data-aos="fade-right">
+						<li>Blog</li>
+						<li>Reviews</li>
+						<li>FAQs</li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer-col3">
+				<div class="footer-col3-content">
+					<p class="footer-headerText">Template</p>
+					<br><br>
+					<ul class="footer-contentText-bullet" data-aos="fade-right">
+						<li>Self made</li>
+						<li>No framework</li>
+						<li>Fully organized</li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer-col4">
+				<div class="footer-col4-content">
+					<p class="footer-headerText">Reference</p>
+					<br><br>
+					<ul class="footer-contentText-bullet" data-aos="fade-right">
+						<li>w3schools.com</li>
+						<li>stackOverFlow</li>
+						<li>fontawesome.com</li>
+						<li>unpkg.com</li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer-credits">
+				<p>Copyright © 2020 All rights reserved | This template is made by <strong>Nur Ameerul Ameen</strong></p>
+			</div>
+		</div>
+		
+	</footer>
+	
+	 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	 <script>
+	    AOS.init({
+	    	once: true
+	    });
+	 </script>
+	<script src="js/animation.js"></script>
+	<script src="js/back-top.js"></script>
+
+</body>
+</html>
