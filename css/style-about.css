@@ -1,0 +1,141 @@
+.section1-text1 {
+  font-family: Trebuchet MS;
+  font-size: 50px;
+  color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  margin-top: 200px;
+}
+
+.section-white {
+  background-color: white;
+  height: 54em;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  position: relative;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 70px;
+  padding-top: 60px;
+}
+
+.section-white-1 {
+  position: relative;
+  text-align: center;
+  height: 9.5em;
+  width: 70%;
+  background-color: rgba(10, 190, 190, 0.4);
+  font-family: Verdana;
+  padding-bottom: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 10px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.section-white-2 {
+  position: relative;
+  text-align: center;
+  width: 70%;
+  margin-top: 50px;
+  font-family: Verdana;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 10px;
+  color: rgba(0, 0, 0, 0.75);
+}
+
+.section-white-2-button {
+  width: 50%;
+  height: 50px;
+  background-color: rgba(0, 120, 186, 0.9);
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 19px;
+}
+.section-white-2-button:hover {
+  background-color: rgba(0, 120, 186, 1)
+}
+
+.section-white-3 {
+  position: relative;
+  text-align: left;
+  height: 100%;
+  width: 70%;
+  margin-top: 90px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.col1 {
+  display: inline-block;
+}
+
+.col2 {
+  display: inline-block;
+  position: absolute;
+  margin-left: 100px;
+  font-family: Comic Sans MS;
+  font-size: 23px;
+  width: 60%;
+}
+
+.soc-col {
+  display: inline-block;
+}
+
+img {
+  cursor: pointer;
+}
+
+.creds-p {
+  font-family: Trebuchet MS;
+  color: rgba(100, 100, 100);
+  margin-top: 60px;
+}
+
+.soc-hover {
+  cursor: pointer;
+  transition: 0.25s;
+  display: inline-block;
+}
+
+.soc-hover:hover {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 600px) {
+  .section-white {
+    height: 85em;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .section-white-1 {
+    height: 12em;
+    width: 95%;
+  }
+  .section-white-2 {
+    width: 100%;
+  }
+
+  .col1 {
+    display: block;
+    text-align: center;
+  }
+
+  .col2 {
+    display: block;
+    text-align: center;
+    margin-left: 0px;
+    font-family: Comic Sans MS;
+    font-size: 23px;
+    width: 100%;
+  }
+
+  .creds-p {
+    margin-top: 25em;
+    text-align: center;
+  }
+}

@@ -1,0 +1,245 @@
+.section1-text1 {
+  font-family: Trebuchet MS;
+  font-size: 50px;
+  color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  margin-top: 200px;
+}
+
+.section-white {
+  background-color: white;
+  height: 378em;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  position: relative;
+  overflow: hidden;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 100px;
+}
+
+.section-white-3 {
+  position: relative;
+  text-align: center;
+  width: 100%;
+
+}
+
+.section-white-3-content1 {
+  margin-top: 100px;
+  display: inline-block;
+  width: 1200px;
+  padding: 30px;
+  position: relative;
+  border-radius: 10px;
+}
+
+.content-video {
+  display: inline-block;
+  float: left;
+  background-color: rgba(10, 190, 190, 0.7);
+  padding: 5px;
+}
+
+.content-video-text-area {
+  display: inline-block;
+  float: left;
+  text-align: left;
+}
+
+.content-video-text {
+  margin-left: 50px;
+  font-family: candara;
+}
+
+.content-video-text-header {
+  font-size: 50px;
+  margin-top: 30px;
+  color: rgba(0, 0, 0, 0.75);
+}
+
+.content-video-text-content {
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+.icon-swiss {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 92%;
+  margin-top: 150px;
+  opacity: 0.5;
+  color: rgb(10, 190, 190);
+}
+
+.section-white-3-content2 {
+  margin-top: 100px;
+  display: inline-block;
+  width: 1200px;
+  padding: 30px;
+
+  position: relative;
+  border-radius: 10px;
+}
+
+.content-video2 {
+  display: inline-block;
+  float: right;
+  background-color: rgba(10, 190, 190, 0.7);
+  padding: 5px;
+}
+
+.content-video-text-area2 {
+  display: inline-block;
+  text-align: left;
+  float: right;
+  margin-right: 70px;
+}
+
+.content-video-text2 {
+  margin-left: 50px;
+  font-family: candara;
+}
+
+.icon-uk {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 8%;
+  margin-top: 150px;
+  opacity: 0.5;
+  color: rgb(10, 190, 190);
+}
+
+.outline-none:focus {
+  outline: none;
+}
+
+.section-white-2 {
+  transform: translate(-50%, -50%);
+  position: relative;
+  left: 50%;
+  text-align: center;
+  background-color: rgba(10, 190, 190, 1);
+  height: 167em;
+  padding: 50px;
+  margin-top: 92em;
+}
+
+.section-headerText {
+  font-family: Trebuchet MS;
+  font-size: 35px;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.content-video-stadium1 {
+  display: inline-block;
+  float: left;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5px;
+}
+
+.content-video-stadium2 {
+  display: inline-block;
+  float: right;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5px;
+}
+
+.icon-left {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 85%;
+  margin-top: 200px;
+  opacity: 0.5;
+  color: rgb(10, 190, 190);
+}
+
+.icon-right {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 15%;
+  margin-top: 200px;
+  opacity: 0.5;
+  color: rgb(10, 190, 190);
+}
+
+@media screen and (max-width: 600px) {
+
+  img {
+    width: 100%;
+  }
+
+  .section-white {
+    height: 407em;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 20px;
+  }
+
+  .section-white-3-content1 {
+    margin-top: -20px;
+    display: block;
+    width: 80%;
+  }
+
+  .content-video {
+    display: block;
+    float: left;
+    background-color: rgba(10, 190, 190, 0.7);
+    padding: 5px;
+  }
+  .content-video-text {
+    display: block;
+    margin-left: 0px;
+  }
+  .icon-swiss {
+    display: none;
+  }
+  .icon-left {
+    display: none;
+  }
+
+  .section-white-2 {
+    height: 180em;
+    margin-top: 305em;
+    width: 100%;
+  }
+
+  .section-white-3-content2 {
+    margin-top: 10px;
+    display: block;
+    width: 80%;
+    float: left;
+  }
+
+  .content-video2 {
+    display: block;
+    float: left;
+    background-color: rgba(10, 190, 190, 0.7);
+    padding: 5px;
+  }
+  .content-video-text2 {
+    display: block;
+    margin-left: 0px;
+  }
+  .icon-uk {
+    display: none;
+  }
+  .icon-right {
+    display: none;
+  }
+
+  .content-video-text-area2 {
+    display: inline-block;
+    float: left;
+    text-align: left;
+  }
+
+  .content-video-stadium2 {
+    float: left;
+  }
+
+  .content-video-text-content {
+    margin-top: 0px;
+  }
+
+}
